@@ -1,1 +1,4 @@
-
+pandas
+streamlit_authenticator
+yaml
+yaml.loader
