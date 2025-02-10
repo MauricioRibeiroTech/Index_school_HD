@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+     mauribeiro:
+      email: mau.ap.ribeiro@gmail.com
+      name: Mauricio Ribeiro
+      password: mau16mau81 # To be replaced with hashed password
+     rafamartins:
+      email: rafa_martins_01@gmail.com
+      name: Rafaela Martins
+      password: mau16mau81 # To be replaced with hashed password
+
+
+cookie:
+  expiry_days: 730
+  key: random_signature_key # Must be string
+  name: random_cookie_name
+preauthorized:
+  emails:
+  - mau.ap.ribeiro@gmail.com
