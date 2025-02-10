@@ -1,4 +1,2 @@
 pandas
 streamlit-authenticator
-yaml
-yaml.loader
