@@ -1,4 +1,4 @@
 pandas
-streamlit_authenticator
+streamlit-authenticator
 yaml
 yaml.loader
