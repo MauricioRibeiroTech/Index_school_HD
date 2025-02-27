@@ -67,9 +67,9 @@ if st.session_state["authentication_status"]:
         media_1 = df['Sim1'].mean().round(2)
         media_2 = df['Acer1'].mean().round(2)
         media_3 = df['Err1'].mean().round(2)
-        #media_4 = df['Sim 4'].mean().round(1)
-        #media_5 = df['Sim 5'].mean().round(1)
-        #media_6 = df['Sim 6'].mean().round(1)
+        media_4 = df['Sim2'].mean().round(1)
+        media_5 = df['Acer2'].mean().round(1)
+        media_6 = df['Err2'].mean().round(1)
         #media_7 = df['Sim 7'].mean().round(1)
         #media_8 = df['Sim 8'].mean().round(1)
         #media_9 = df['Sim 9'].mean().round(1)
@@ -81,9 +81,9 @@ if st.session_state["authentication_status"]:
         dif2 = 6.0 - media_2
         dif3 = 0.0 - media_3
 
-        #dif4 = media_4 - 6.0
-        #dif5 = media_5 - 6.0
-        #dif6 = media_6 - 6.0
+        dif4 = media_4 - 6.0
+        dif5 = media_5 - 6.0
+        dif6 = media_6 - 6.0
 
         #dif7 = media_7 - 6.0
         #dif8 = media_8 - 6.0
@@ -96,9 +96,9 @@ if st.session_state["authentication_status"]:
         a.metric("Simulado 1", media_1, dif1.round(2), border=True)
         b.metric("Média de Acertos", media_2, dif2.round(2), border=True)
         c.metric("Média de Erros", media_3, dif3.round(2), border=True)
-        #a.metric("Simulado 4", media_4, dif4.round(1), border=True)
-        #b.metric("Simulado 5", media_5, dif5.round(1), border=True)
-        #c.metric("Simulado 6", media_6, dif6.round(1), border=True)
+        a.metric("Simulado 2", media_4, dif4.round(1), border=True)
+        b.metric("Média de Acertos", media_5, dif5.round(1), border=True)
+        c.metric("Média de Erros", media_6, dif6.round(1), border=True)
         #a.metric("Simulado 7", media_7, dif7.round(1), border=True)
         #b.metric("Simulado 8", media_8, dif8.round(1), border=True)
         #c.metric("Simulado 9", media_9, dif9.round(1), border=True)
