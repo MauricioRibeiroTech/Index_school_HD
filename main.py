@@ -35,7 +35,7 @@ if st.session_state["authentication_status"]:
     authenticator.logout()
     st.write(f'Bem Vindo *{st.session_state["name"]}*')
 
-    SIM = ['Sim1', 'Acer1', 'Err1']
+    SIM = ['Sim1', 'Smi2', 'Err1', 'Err2']
 
     with st.sidebar:
         st.title('Relatório de notas')
